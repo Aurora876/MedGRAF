@@ -65,3 +65,36 @@ Run the view reconstruction script and install the required dependencies based o
 5. Install `opencv-python`:
    ```bash
    pip install opencv-python
+## Environment Setup
+### Install Anaconda
+Before installing PyTorch-GPU, you need to install Anaconda. Anaconda is a popular Python distribution that includes a wide range of libraries for scientific computing and data analysis.
+
+1. Visit the Anaconda website: [Anaconda Download](https://www.anaconda.com/download).
+2. Download and install Anaconda.
+3. After installation, restart your computer.
+4. Open the command line and run the following command to check the Anaconda version and confirm successful installation:
+   ```bash
+   conda -V
+3. If the version number is displayed, Anaconda has been installed successfully.
+
+### Install PyTorch-GPU
+
+#### Check CUDA Version
+Before installing PyTorch-GPU, confirm the CUDA version supported by your computer.
+
+1. Open the command line (cmd) and run:
+   ```bash
+   nvidia-smi
+   ```
+
+2. Check the output to find the maximum supported CUDA version. For example, if it shows CUDA 12.8, you need to install a CUDA version less than or equal to 12.8.
+
+#### Install CUDA
+Download and install the appropriate CUDA toolkit version from the NVIDIA website based on your computer's supported CUDA version.
+
+1. Visit the CUDA Toolkit Archive: [CUDA Toolkit Archive](https://developer.nvidia.com/cuda-toolkit-archive).
+2. Download and install the CUDA version compatible with your system.
+3. After installation, CUDA will be installed by default in the `C:\Program Files\NVIDIA GPU Computing Toolkit` directory.
+
+#### Install PyTorch-GPU
+You have now successfully installed PyTorch-GPU and its dependencies.

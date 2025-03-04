@@ -85,5 +85,3 @@ python render_xray_G_mod.py configs/knee.yaml --xray_img_path /home/zd/jzd/new/g
 
 Our code is heavily inspired by the codebase from [this repository](https://github.com/autonomousvision/graf).
 ```
-
----

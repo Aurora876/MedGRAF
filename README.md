@@ -44,7 +44,7 @@ You can obtain all the data through [this link](https://drive.google.com/drive/f
 
 ## Model Acquisition
 
-You can obtain the pre-trained models through [this link](#). The models include:
+You can obtain the pre-trained models through [this link](https://drive.google.com/drive/folders/12l-HJ6vH4xFLtd9z6WFqwSwCt4gZvlJd?usp=sharing). The models include:
 - **Chest Model**
 - **Knee Model**
 

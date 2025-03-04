@@ -37,8 +37,8 @@ Create and activate a virtual environment, then install PyTorch-GPU and its depe
 ## Data Acquisition
 
 You can obtain all the data through [this link](#). The dataset includes:
-- **Chest Dataset**: Contains X instances of images.
-- **Knee Dataset**: Contains Y instances of images.
+- **Chest Dataset**: Contains 1440 instances of images.
+- **Knee Dataset**: Contains 360 instances of images.
 
 ---
 

@@ -1,5 +1,5 @@
 # Offical Code Implementation for MedGRAF
-MedGRAF: Sparse View X-ray Generative Radiance Field with Multi-scale Sampling and Medical Augmentation
+MedGRAF: Sparse-view X-ray Generative Radiance Field via Multi-scale Sampling and Medical Augmentation
 
 # Project Setup and Usage Guide
 

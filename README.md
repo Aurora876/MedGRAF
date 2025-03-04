@@ -76,7 +76,10 @@ After training the model with the data, you can generate a complete 360-degree X
 
 Run the following command for view reconstruction:
 ```bash
-python render_xray_G_mod.py configs/knee.yaml --xray_img_path /home/zd/jzd/new/graf/data/render1_360 --save_dir /home/zd/jzd/new/graf/results/baseline/test1 --model /home/zd/jzd/new/graf/results/baseline/ckpt/model.pt
+python render_xray_G_mod.py configs/experiment.yaml /
+    --xray_img_path path_to_xray_folder /
+    --save_dir ./renderings /
+    --model path_to_trained_model/model_best.pt /
 ```
 
 ---

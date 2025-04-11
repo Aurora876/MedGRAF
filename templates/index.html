@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel View Synthesis</title>
+    <link rel="stylesheet" href="static/index.css">
+</head>
+
+<body>
+    <h1>Novel View Synthesis</h1>
+
+    <!-- 文件上传表单 -->
+    <form id="upload-form">
+        <div class="form-group file-upload">
+            <label for="file-input">Upload a X-ray:</label>
+            <input type="file" id="file-input" required accept="image/png, image/jpeg, image/gif">
+        </div>
+
+        <div class="form-group slider-container">
+            <div class="slider-header">
+                <span class="slider-label" for="total-iterations">Total Iterations:</span>
+                <span class="slider-value" id="total-iterations-value">100</span>
+            </div>
+            <input type="range" id="total-iterations" min="100" max="1000" step="100" value="100">
+        </div>
+
+        <div class="form-group slider-container">
+            <div class="slider-header">
+                <span class="slider-label" for="save-every">Save Every:</span>
+                <span class="slider-value" id="save-every-value">100</span>
+            </div>
+            <input type="range" id="save-every" min="100" max="1000" step="100" value="100">
+        </div>
+
+        <div class="form-group slider-container">
+            <div class="slider-header">
+                <span class="slider-label" for="test-j">Select Degrees:</span>
+                <span class="slider-value" id="test-j-value">0°</span>
+            </div>
+            <input type="range" id="test-j" min="0" max="54" step="18" value="0">
+        </div>
+
+        <button type="submit">Generate Images</button>
+    </form>
+
+    <!-- 进度条 -->
+    <div class="progress-bar">
+        <div id="progress-bar-fill" class="progress-bar-fill">0%</div>
+    </div>
+
+    <!-- 加载动画 -->
+    <div id="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p>Loading images...</p>
+    </div>
+
+    <!-- 图片容器 -->
+    <div id="image-container" class="image-container"></div>
+
+    <script src="static/index.js"></script>
+</body>
+
+</html>

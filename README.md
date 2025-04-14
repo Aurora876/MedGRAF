@@ -88,4 +88,3 @@ python render_xray_G_mod.py configs/experiment.yaml /
 ## Acknowledgments
 
 Our code is heavily inspired by the codebase from [this repository](https://github.com/autonomousvision/graf).
-```

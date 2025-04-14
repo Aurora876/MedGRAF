@@ -1,0 +1,6 @@
+[submodule "submodules/nerf-pytorch"]
+	path = submodules/nerf-pytorch
+	url = git@github.com:yenchenlin/nerf-pytorch.git
+[submodule "submodules/GAN_stability"]
+	path = submodules/GAN_stability
+	url = git@github.com:LMescheder/GAN_stability.git

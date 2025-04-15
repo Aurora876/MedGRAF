@@ -1,6 +1,6 @@
 # Offical Code Implementation for MedGRAF
 MedGRAF: Sparse-view X-ray Generative Radiance Field via Multi-scale Sampling and Medical Augmentation
-![GitHub Logo](https://github.com/Aurora876/MedGRAF/blob/main/results/fig1.pdf)
+![GitHub Logo](https://github.com/Aurora876/MedGRAF/blob/main/results/medgraf_vis.png)
 
 # Project Setup and Usage Guide
 
@@ -26,7 +26,7 @@ Create and activate a virtual environment, then install PyTorch-GPU and its depe
 1. Create a virtual environment named `xxx`:
    ```bash
    conda create --name xxx python=3.10
-
+   ```
 
 2. Activate the `xxx` environment:
    ```bash

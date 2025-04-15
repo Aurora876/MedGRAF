@@ -1,6 +1,6 @@
 # Offical Code Implementation for MedGRAF
 MedGRAF: Sparse-view X-ray Generative Radiance Field via Multi-scale Sampling and Medical Augmentation
-![GitHub Logo]()
+![GitHub Logo](https://github.com/Aurora876/MedGRAF/blob/main/results/fig1.pdf)
 
 # Project Setup and Usage Guide
 
